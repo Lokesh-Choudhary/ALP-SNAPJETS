@@ -1,0 +1,10 @@
+print("Welcome To MiniProject On Letter Counter ")
+user_msg=input("Enter Yur Msg  ")
+user_letter=input("Plz enter The letter  ")
+len(user_msg)
+user_msg.upper()
+count=user_msg.count(user_letter)
+len_msg=len(user_msg)
+per=count/len_msg*100
+print("The Count Of The Letter ",user_letter,"is",count)
+print("The Perc of the letter ",user_letter,"is ",per)
